@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+    <ImageView
+        android:id="@+id/fries_bowl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/french_fries_in_a_bowl__2_"
+
+        android:layout_marginLeft="-20sp"/>
+
+    <TextView
+        android:id="@+id/text_done"
+        android:layout_below="@id/fries_bowl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="-120sp"
+        android:layout_marginRight="30sp"
+        android:text="Your Fries\n Are Ready!"
+        android:textColor="@color/orange"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_done"
+        android:text="Done"
+        android:textSize="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginStart="60sp"
+        android:layout_marginEnd="60sp"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>
